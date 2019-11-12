@@ -11,7 +11,7 @@ from taobaosetting import *
 from urllib.parse import quote
 
 chrome_options=webdriver.ChromeOptions()
-#chrome_options.add_argument('--headless') #此处类似于pljs模型，会在后台自动爬取
+#chrome_options.add_argument('--headless') #此处类似于pjs模型，会在后台自动爬取
 chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
 browser=webdriver.Chrome(chrome_options=chrome_options)
 
